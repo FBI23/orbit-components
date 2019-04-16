@@ -44,9 +44,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
 }
 
 .c0:active {
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95);
+  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
   background: #e5eaef;
   color: #008f7b!important;
 }
@@ -56,7 +54,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
 }
 
 .c0:focus:active {
-  box-shadow: none;
+  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
 }
 
 <ButtonLink
@@ -76,8 +74,8 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
     buttonRef={null}
     component="button"
     dataTest="test"
-    external={true}
     href="https://kiwi.com"
+    onMouseDown={[Function]}
     rel="noopener noreferrer"
     role="button"
     size="normal"
@@ -545,7 +543,6 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
       buttonRef={null}
       component="button"
       dataTest="test"
-      external={true}
       forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
@@ -553,7 +550,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "ButtonLink__StyledButtonLink-sc-14jv5cl-1",
             "isStatic": false,
-            "lastClassName": "eytoOq",
+            "lastClassName": "eMHaFK",
             "rules": Array [
               "font-family:",
               [Function],
@@ -1050,6 +1047,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
       }
       forwardedRef={null}
       href="https://kiwi.com"
+      onMouseDown={[Function]}
       rel="noopener noreferrer"
       role="button"
       size="normal"
@@ -1518,8 +1516,8 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
         className="c0"
         component="button"
         dataTest="test"
-        external={true}
         href="https://kiwi.com"
+        onMouseDown={[Function]}
         rel="noopener noreferrer"
         role="button"
         size="normal"
@@ -1987,6 +1985,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
           className="c0"
           data-test="test"
           href="https://kiwi.com"
+          onMouseDown={[Function]}
           rel="noopener noreferrer"
           role="button"
           size="normal"
@@ -2099,9 +2098,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
 }
 
 .c0:active {
-  -webkit-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  transform: scale(0.95);
+  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
   background: #e5eaef;
   color: #008f7b!important;
 }
@@ -2111,7 +2108,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
 }
 
 .c0:focus:active {
-  box-shadow: none;
+  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
 }
 
 <ButtonLink
@@ -2125,6 +2122,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
     href="https://kiwi.com"
     iconLeft={<Airplane />}
     iconRight={<ChevronDown />}
+    onMouseDown={[Function]}
     onlyIcon={false}
     size="normal"
     sizeIcon="medium"
@@ -3090,6 +3088,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
       href="https://kiwi.com"
       iconLeft={<Airplane />}
       iconRight={<ChevronDown />}
+      onMouseDown={[Function]}
       onlyIcon={false}
       size="normal"
       sizeIcon="medium"
@@ -3553,6 +3552,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
         href="https://kiwi.com"
         iconLeft={<Airplane />}
         iconRight={<ChevronDown />}
+        onMouseDown={[Function]}
         onlyIcon={false}
         size="normal"
         sizeIcon="medium"
@@ -4012,6 +4012,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
         <a
           className="c0"
           href="https://kiwi.com"
+          onMouseDown={[Function]}
           size="normal"
         >
           <ButtonLink__IconContainer

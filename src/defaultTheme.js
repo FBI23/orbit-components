@@ -67,7 +67,6 @@ const foundation = {
 
 const orbit = getTokens(foundation);
 
-console.log(orbit);
 export default {
   orbit,
   rtl: false,

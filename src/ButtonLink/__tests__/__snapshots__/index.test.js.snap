@@ -44,9 +44,9 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
 }
 
 .c0:active {
-  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
   background: #e5eaef;
   color: #008f7b!important;
+  box-shadow: inset 0 0 6px 3px rgba(23,27,30,0.08);
 }
 
 .c0:focus {
@@ -54,7 +54,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
 }
 
 .c0:focus:active {
-  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
+  box-shadow: inset 0 0 6px 3px rgba(23,27,30,0.08);
 }
 
 <ButtonLink
@@ -550,7 +550,7 @@ exports[`ButtonLink with Icon should match snapshot 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "ButtonLink__StyledButtonLink-sc-14jv5cl-1",
             "isStatic": false,
-            "lastClassName": "eMHaFK",
+            "lastClassName": "fGDkAz",
             "rules": Array [
               "font-family:",
               [Function],
@@ -2098,9 +2098,9 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
 }
 
 .c0:active {
-  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
   background: #e5eaef;
   color: #008f7b!important;
+  box-shadow: inset 0 0 6px 3px rgba(23,27,30,0.08);
 }
 
 .c0:focus {
@@ -2108,7 +2108,7 @@ exports[`ButtonLink with Icon should match snapshot 2`] = `
 }
 
 .c0:focus:active {
-  box-shadow: inset 0 0 8px 3px rgba(23,27,30,0.15);
+  box-shadow: inset 0 0 6px 3px rgba(23,27,30,0.08);
 }
 
 <ButtonLink
